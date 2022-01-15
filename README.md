@@ -1,6 +1,8 @@
 # Project Introduction
 This project aims to score phrases and words based on their “trendiness” on Twitter by processing in three different ways: **data lake**, **data warehouse,** and **streaming message queue**. Suppose we choose a phrase and a specific point t in time. In that case, the trendiness score is the ratio which is the probability of seeing a phrase in the current minute at t relative to the probability of seeing the same phrase in the minute prior to *t.*
 
+Our team for this project consists of seven members. I took responsible for **scraping and extracting data from twitter API, analyzing trendiness score with Python and SQL in data warehouse and stream, project management.** We separated this project into three milestones and determined the goal for each one.
+
 
 # How to read the code
 
